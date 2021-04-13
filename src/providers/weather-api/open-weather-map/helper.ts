@@ -6,7 +6,7 @@ export const convertOpenWeatherMapToWeather = (data: IOpenWeatherMapConfigDto):I
     city: data.name,
     temp: data.main.temp,
     tempMin: data.main.temp_min,
-    tempMax: data.main.temp_min,
+    tempMax: data.main.temp_max,
     sunrise: data.sys.sunrise + data.timezone,
     sunset: data.sys.sunset + data.timezone
   }
