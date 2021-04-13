@@ -1,7 +1,7 @@
 
 export default {
   port: process.env.PORT || 3000,
-  mongoDBHost: process.env.MONGODB_HOST || 'mongodb://localhost:27017/medical_db?maxIdleTimeMS=0',
   isVerboseLog: (process.env.VERBOSE_LOG && process.env.VERBOSE_LOG === '1'),
-  isProduction: (process.env.NODE_ENV && process.env.NODE_ENV === 'production')
+  isProduction: (process.env.NODE_ENV && process.env.NODE_ENV === 'production'),
+  openWeatherMapAppId: process.env.OPEN_WEATHER_MAP_APP_ID || '556cbb3084bd3ce10130429477b56710'
 }
