@@ -34,14 +34,11 @@
 
 - ```npm i```;
 
-## Iniciar a aplicação no anbiente local
+## Iniciar a aplicação no ambiente local
 
 - Utilizar o arquivo **.env** caso queira alterar o valor default de alguma variável de ambiente;
-- Executar o comando ```npm run docker:local``` para subir o container com o REDIS;
+- Executar o comando ```npm run docker:local``` para subir serviços dependentes;
 - Executar o comando ```npm start``` para inicializar o servidor;
-
-## Ambiente de testes
-
 
 ## Documentação da API
 
